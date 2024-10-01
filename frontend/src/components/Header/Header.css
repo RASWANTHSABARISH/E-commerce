@@ -1,0 +1,48 @@
+.header {
+    height: 35vw; /* Adjust this to your preference */
+    margin: 30px auto; /* Use 100% to cover the full width of the parent container */
+    background-image: url('/header3.jpg'); /* Ensure the path is correct */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: contain; /* Adjusts the size of the image to fit the container */
+    position: relative;
+}
+
+.header-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 50%;
+    bottom: 17%;
+    left: 6vw;
+    gap: 1.4vw;
+    animation: fadeIn 2.5s;
+}
+
+.header-content h1{
+    font-size: 60px;
+    color: rgb(255, 166, 1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-content p{
+    font-family:'Times New Roman', Times, serif;
+    color: #575757;
+    letter-spacing: 0.6px;
+    font-size: medium;
+}
+
+.header-content button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    border: none;
+    padding: 13px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 22px;
+    background-color: white;
+    color:  rgb(255, 166, 1);
+    font-size: larger;
+    cursor: pointer;
+
+}

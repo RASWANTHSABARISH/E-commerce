@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+.navbar{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+
+.navbarmenu{
+    display: flex;
+    list-style: none;
+    color: rgb(255, 102, 0);
+    padding: 20px;
+    gap: 30px;
+   
+}
+
+.navbar .logo{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-right{
+    display: flex;
+    gap: 15px;
+}
+
+.srch{
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+.bskt{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar button{
+    background: transparent;
+    font-size: large;
+    color:rgb(214, 214, 214);
+    border-radius: 10px;
+    width: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(70, 68, 68);
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: large;
+}
+
+.navbar button:hover{
+    background-color: rgb(70, 68, 68);
+
+}
+
+.navbar .active{
+    padding-bottom: 1px;
+    border-bottom: 1px solid rgb(255, 102, 0);
+    color: rgb(255, 102, 0);
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar-search-icon{
+    position: relative;
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 5px;
+    top: -3px;
+    right: -3px;
+}
